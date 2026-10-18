@@ -1,0 +1,15 @@
+name = "erdos105_sub_four"
+version = "0.1.0"
+defaultTargets = ["Erdos105SubFour"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "e754a78c74a3f2bbc38e4f2063b5f6eed51bde39"
+
+[[lean_lib]]
+name = "Erdos105SubFour"
